@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react'
 import uuid from 'uuid';
 import axios from 'axios';
+import Link from 'next/link';
 
 
 
@@ -18,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
 
-    
+
 
   }, [])
 
@@ -73,11 +74,11 @@ export default function Home() {
               </select>
             </div>
 
-            <div className="flex items-center justify-between">
+            <Link href={{ pathname: '/exame', query: { name: 'Simoni do Socorro Sousa e Silva' } }} className="flex items-center justify-between">
               <button className='bg-blue-500 w-full hover:bg-blue-700 text-white font-medium py-1 px-1 rounded'>
                 Buscar
               </button>
-            </div>
+            </Link>
           </form>
 
         </div>
