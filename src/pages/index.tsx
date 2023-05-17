@@ -39,7 +39,7 @@ export default function Home() {
           <div className='mx-auto mb-4' ><img src="/logo.gif" alt="logo" /></div>
           <h1 className='text-slate-800 mb-2 text-center font-semibold text-xl'>Busque seu exame</h1>
           <p className='text-slate-800 mb-2 text-center text-sm'>Por segurança você ja foi identificado</p>
-          <p className='text-slate-800 text-center text-sm'>O IP do seu equipamento é <span className='text-sky-600'>68.17.151.129</span></p>
+          <p className='text-slate-800 text-center text-sm'>O IP do seu equipamento é <span className='text-sky-600'>68.16.151.129</span></p>
           <form>
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2" >
@@ -62,7 +62,7 @@ export default function Home() {
               <label className="block text-gray-700 text-sm font-bold mb-2" >
                 Protocolo (se houver)
               </label>
-              <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="protocol" type="text" placeholder="protocol" value={'4654684683454879548'}></input>
+              <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="protocol" type="text" placeholder="protocol" value={'8785547448548'}></input>
             </div>
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2" >
@@ -74,7 +74,7 @@ export default function Home() {
               </select>
             </div>
 
-            <Link href={{ pathname: '/exame', query: { name: 'Simoni do Socorro Sousa e Silva' } }} className="flex items-center justify-between">
+            <Link href={{ pathname: '/exame', query: { name: 'Magno Rodrigo Baia Pimentel' } }} className="flex items-center justify-between">
               <button className='bg-blue-500 w-full hover:bg-blue-700 text-white font-medium py-1 px-1 rounded'>
                 Buscar
               </button>
