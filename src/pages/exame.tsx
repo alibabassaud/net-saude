@@ -31,7 +31,7 @@ export default function Home() {
                     <h1 className='text-slate-900 font-semibold text-xl'>{name}</h1>
                     <p className='text-slate-500 mb-2  text-sm'>idade:</p>
                     <p className='text-slate-500 mb-2  text-sm'>Estudo: : TC DE CRANIO</p>
-                    <p className='text-slate-500 mb-4  text-sm'>Data de realização: 07/03/2023, 12:54</p>
+                    <p className='text-slate-500 mb-4  text-sm'>Data de realização: 14/02/2023, 12:54</p>
                     <div className='flex'>
                         <button className='bg-green-500 mb-4 px-4 w-full hover:bg-green-700 text-white font-normal py-1 rounded'>
                             <div className='flex justify-center items-center '>
