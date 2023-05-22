@@ -74,7 +74,7 @@ export default function Home() {
               </select>
             </div>
 
-            <Link href={{ pathname: '/exame', query: { name: 'Magno Rodrigo Baia Pimentel' } }} className="flex items-center justify-between">
+            <Link href={{ pathname: '/exame', query: { name: 'Celso Oliveira Rodrigues' } }} className="flex items-center justify-between">
               <button className='bg-blue-500 w-full hover:bg-blue-700 text-white font-medium py-1 px-1 rounded'>
                 Buscar
               </button>
