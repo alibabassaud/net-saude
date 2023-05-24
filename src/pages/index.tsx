@@ -50,7 +50,7 @@ export default function Home() {
                 Data de nascimento
               </label>
               {
-                user ?
+                data[`${cpf}`] ?
                   <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nasc" type="text" placeholder="nacimentos" value={data[`${cpf}`].data_nascimento}></input>
                   :
                   <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nasc" type="text" placeholder="nacimentos"></input>

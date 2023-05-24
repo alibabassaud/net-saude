@@ -14,7 +14,6 @@ export default function Home() {
     const [user, setUser] = useState()
 
     useEffect(() => {
-        setUser(data[`${cpf}`])
     }, [])
 
     return (
@@ -36,7 +35,7 @@ export default function Home() {
                     className='flex flex-col p-4 bg-white w-[380px] rounded-md shadow-xl'
                 >
                     {
-                    data[`${cpf}`].cpf ?
+                    data[`${cpf}`] ?
                     <h1 className='text-slate-900 font-semibold text-xl'>{data[`${cpf}`].nome}</h1> : ""
                     }
                     <p className='text-slate-500 mb-2  text-sm'>idade:</p>

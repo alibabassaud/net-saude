@@ -57,9 +57,36 @@ export default function Home() {
                 </div>
             </div>
             <div
-                className='flex h-full items-center justify-center  '
+                className='flex h-full items-center justify-center'
             >
-                <img src="tc-image.png" alt="" />
+                <div className="p-3">
+                <Image
+                    src="/exames/1.jpeg"
+                    width={300}
+                    height={300}
+                    alt="Picture of the author"
+                />
+                </div>
+                
+                <div className="p-3">
+                <Image
+                    src="/exames/2.jpeg"
+                    width={300}
+                    height={300}
+                    alt="Picture of the author"
+                />
+                </div>
+                
+                <div className="p-3">
+                <Image
+                    src="/exames/3.jpeg"
+                    width={300}
+                    height={300}
+                    alt="Picture of the author"
+                />
+                </div>
+                
+                
             </div>
         </main>
     )
