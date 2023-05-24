@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { useRouter } from 'next/router';
+import data from '@/base/data';
 
 import { useEffect, useState } from 'react'
-import uuid from 'uuid';
-import axios from 'axios';
+
 import Link from 'next/link';
 
 
@@ -14,17 +14,14 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   // const id = uuid.v4;
   const router = useRouter();
-  const { cpf, nasc }: any = router.query;
-  const [ip, setIp] = useState()
+  const { cpf }: any = router.query;
+  const [user, setUser] = useState()
 
   useEffect(() => {
-
-
-
+    setUser(data[`${cpf}`])
+    console.log(user)
   }, [])
 
-
-  const nascimento = new Date(nasc)
   return (
     <main
       className={`flex h-[100vh] flex-col items-center justify-center p-24 ${inter.className} bg-[url('/entregaflipped.png')] bg-cover bg-center`}
@@ -32,8 +29,9 @@ export default function Home() {
       <div
         className={``}
       >
-
-        <div
+        {
+          data[`${cpf}`] ?
+          <div
           className='flex flex-col p-4 bg-white w-[380px] rounded-md shadow-xl'
         >
           <div className='mx-auto mb-4' ><img src="/logo.gif" alt="logo" /></div>
@@ -52,8 +50,8 @@ export default function Home() {
                 Data de nascimento
               </label>
               {
-                nasc ?
-                  <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nasc" type="text" placeholder="nacimentos" value={new Intl.DateTimeFormat('pt-BR').format(nascimento)}></input>
+                user ?
+                  <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nasc" type="text" placeholder="nacimentos" value={data[`${cpf}`].data_nascimento}></input>
                   :
                   <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nasc" type="text" placeholder="nacimentos"></input>
               }
@@ -74,14 +72,15 @@ export default function Home() {
               </select>
             </div>
 
-            <Link href={{ pathname: '/exame', query: { name: 'Celso Oliveira Rodrigues' } }} className="flex items-center justify-between">
+            <Link href={{ pathname: '/exame', query: { cpf: data[`${cpf}`].cpf } }} className="flex items-center justify-between">
               <button className='bg-blue-500 w-full hover:bg-blue-700 text-white font-medium py-1 px-1 rounded'>
                 Buscar
               </button>
             </Link>
           </form>
 
-        </div>
+        </div> : ""
+        }
       </div>
     </main>
   )

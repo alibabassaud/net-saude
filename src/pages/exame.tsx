@@ -2,13 +2,20 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { MdArrowBack, MdWallpaper, MdAssignment } from "react-icons/md";
 import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react'
+import data from '@/base/data';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
     const router = useRouter();
-    const { name }: any = router.query;
+    const { cpf }: any = router.query;
+    const [user, setUser] = useState()
+
+    useEffect(() => {
+        setUser(data[`${cpf}`])
+    }, [])
 
     return (
         <main
@@ -28,23 +35,36 @@ export default function Home() {
                 <div
                     className='flex flex-col p-4 bg-white w-[380px] rounded-md shadow-xl'
                 >
-                    <h1 className='text-slate-900 font-semibold text-xl'>{name}</h1>
+                    {
+                    data[`${cpf}`].cpf ?
+                    <h1 className='text-slate-900 font-semibold text-xl'>{data[`${cpf}`].nome}</h1> : ""
+                    }
                     <p className='text-slate-500 mb-2  text-sm'>idade:</p>
-                    <p className='text-slate-500 mb-2  text-sm'>Estudo: : TC DE CRANIO</p>
-                    <p className='text-slate-500 mb-4  text-sm'>Data de realização: 14/02/2023, 12:54</p>
+                    {
+                        data[`${cpf}`] ? 
+                        <p className='text-slate-500 mb-2  text-sm'>Estudo:   : {data[`${cpf}`].exame}</p> : ""
+
+                    } 
+                    {
+                        data[`${cpf}`] ? 
+                        <p className='text-slate-500 mb-4  text-sm'>Data de realização: {data[`${cpf}`].data_realizacao}, 12:54</p> : ""
+                    }
                     <div className='flex'>
                         <button className='bg-green-500 mb-4 px-4 w-full hover:bg-green-700 text-white font-normal py-1 rounded'>
                             <div className='flex justify-center items-center '>
-                                <MdWallpaper fontSize={18} /> <span className='ml-2' onClick={()=>{router.push('/image')}}>Imagens</span>
+                                <MdWallpaper fontSize={18} /> <span className='ml-2' onClick={() => { router.push('/image') }}>Imagens</span>
                             </div>
                         </button>
-                        <button className='bg-green-500 mb-4 ml-2 w-full hover:bg-green-700 text-white font-normal py-1 rounded'>
+                        {
+                            data[`${cpf}`] ? 
+                            <button className='bg-green-500 mb-4 ml-2 w-full hover:bg-green-700 text-white font-normal py-1 rounded'>
                             <div className='flex justify-center items-center '>
-                                <MdAssignment fontSize={18} /> <span className='ml-2' onClick={()=>{router.push('/tc-s.pdf')}} >Laudo</span>
+                                <MdAssignment fontSize={18} /> <span className='ml-2' onClick={() => { router.push(`${data[`${cpf}`].cpf}.pdf`) }} >Laudo</span>
                             </div>
-                        </button>
+                        </button> : ""
+                        }
                     </div>
-                    <button className='bg-blue-500 mb-4 px-4 hover:bg-blue-700 text-white font-normal py-1 rounded' onClick={()=>{alert('Função indisponivel no momento tente mais tarde')}}>
+                    <button className='bg-blue-500 mb-4 px-4 hover:bg-blue-700 text-white font-normal py-1 rounded' onClick={() => { alert('Função indisponivel no momento tente mais tarde') }}>
                         <div className='flex justify-center items-center '>
                             <MdAssignment fontSize={18} /> <span className='ml-2'>email</span>
                         </div>
