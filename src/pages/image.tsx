@@ -61,31 +61,14 @@ export default function Home() {
             >
                 <div className="p-3">
                 <Image
-                    src="/exames/1.jpeg"
-                    width={300}
-                    height={300}
+                    src="/tc-image.png"
+                    width={500}
+                    height={500}
                     alt="Picture of the author"
                 />
                 </div>
                 
-                <div className="p-3">
-                <Image
-                    src="/exames/2.jpeg"
-                    width={300}
-                    height={300}
-                    alt="Picture of the author"
-                />
-                </div>
-                
-                <div className="p-3">
-                <Image
-                    src="/exames/3.jpeg"
-                    width={300}
-                    height={300}
-                    alt="Picture of the author"
-                />
-                </div>
-                
+            
                 
             </div>
         </main>
