@@ -19,6 +19,13 @@ const data = {
         data_nascimento: "16-11-1976",
         cpf: "78505844220",
         exame: "TC DO CRANIO"
+    },
+    '72856097291': {
+        nome: "Jose Wesller Gomes Ferreira",
+        data_realizacao: "007/02/2023",
+        data_nascimento: "17/12/1982",
+        cpf: "72856097291",
+        exame: "Ressonancia"
     }
 }
 
