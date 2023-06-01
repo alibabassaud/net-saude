@@ -22,10 +22,24 @@ const data = {
     },
     '72846097291': {
         nome: "Jose Wesller Gomes Ferreira",
-        data_realizacao: "007/02/2023",
+        data_realizacao: "07/02/2023",
         data_nascimento: "17/12/1982",
         cpf: "72846097291",
         exame: "Ressonancia"
+    },
+    '21811067204': {
+        nome: "Sergio Quaresma do Nascimento",
+        data_realizacao: "13/02/2023",
+        data_nascimento: "03/03/1962",
+        cpf: "21811067204",
+        exame: "Tomografia de Crânio"
+    },
+    '73850276287': {
+        nome: "Luzia Elias Mesquita",
+        data_realizacao: "24/05/2023",
+        data_nascimento: "28/10/1971",
+        cpf: "73850276287",
+        exame: "Tomografia de Crânio"
     }
 }
 
