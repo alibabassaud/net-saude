@@ -40,6 +40,13 @@ const data = {
         data_nascimento: "28/10/1971",
         cpf: "73850276287",
         exame: "Tomografia de Crânio"
+    },
+    '39722520210': {
+        nome: "Jorge Maia Teixeira Rodrigues",
+        data_realizacao: "06/02/2023",
+        data_nascimento: "03/03/1971",
+        cpf: "39722520210",
+        exame: "Tomografia de Crânio"
     }
 }
 
