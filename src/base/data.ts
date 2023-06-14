@@ -47,7 +47,13 @@ const data = {
         data_nascimento: "03/03/1971",
         cpf: "39722520210",
         exame: "Tomografia de Crânio"
-    }
+    },
+    '98309757204': {
+        nome: "SILVIO JACKSON JAMACARU MIRANDA",
+        data_realizacao: "28/02/2023",
+        data_nascimento: "26/02/1988",
+        cpf: "98309757204",
+        exame: "TC DO CRANIO"
 }
 
 export default data
