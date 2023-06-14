@@ -54,6 +54,7 @@ const data = {
         data_nascimento: "26/02/1988",
         cpf: "98309757204",
         exame: "TC DO CRANIO"
+    }
 }
 
 export default data
