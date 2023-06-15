@@ -54,7 +54,14 @@ const data = {
         data_nascimento: "26/02/1988",
         cpf: "98309757204",
         exame: "TC DO CRANIO"
-    }
+    },
+    68743645291': {
+        nome: "KLEBSON CORDOVIL FERREIRA",
+        data_realizacao: "07/03/2023",
+        data_nascimento: "01/10/1978",
+        cpf: "68743645291",
+        exame: "TC DO CRANIO"
+    },
 }
 
 export default data
