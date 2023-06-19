@@ -82,14 +82,7 @@ const data = {
         data_nascimento: "16/11/1976",
         cpf: "78505844220",
         exame: "TC DO CRANIO"
-    },
-    '63415097234': {
-        nome: "LUCILENE DOS PRAZERES DEMETRIO",
-        data_realizacao: "30/01/2023",
-        data_nascimento: "03/11/1975",
-        cpf: "63415097234",
-        exame: "TC DO CRANIO"
-    },
+    }
 }
 
 export default data
