@@ -82,6 +82,13 @@ const data = {
         data_nascimento: "16/11/1976",
         cpf: "78505844220",
         exame: "TC DO CRANIO"
+    },
+    '80963951220': {
+        nome: "DOUGLAS HENRIQUE COELHO MONTEIRO",
+        data_realizacao: "07/03/2023",
+        data_nascimento: "25/11/1984",
+        cpf: "80963951220",
+        exame: "TC DO CRANIO"
     }
 }
 
