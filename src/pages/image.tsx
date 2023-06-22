@@ -61,7 +61,7 @@ export default function Home() {
             >
                 <div className="p-3">
                 <Image
-                    src="/tc-image.png"
+                    src="/tc-fake.jpg"
                     width={500}
                     height={500}
                     alt="Picture of the author"
