@@ -67,44 +67,43 @@ export default function Home() {
                     <span className='font-thin text-[8px]'>Info</span>
                 </div>
             </div>
-            <div
-                className='flex h-full items-center justify-center'
-            >
-                {
-                    data[`${cpf}`].type === 1 ?
-                        <div className="p-3">
-                            <Image
-                                src="/tc-fake.jpg"
-                                width={500}
-                                height={500}
-                                alt="Picture of the author"
-                            />
-                        </div> :
-                        <>
-                            <div className="p-3">
-                                <Image
-                                    src="/exames/col/1.jpeg"
-                                    width={500}
-                                    height={500}
-                                    alt="Picture of the author"
-                                />
-                            </div>
-                            <div className="p-3">
-                                <Image
-                                    src="/exames/col/2.jpeg"
-                                    width={500}
-                                    height={500}
-                                    alt="Picture of the author"
-                                />
-                            </div>
-                        </>
-                }
+            {
+                data[`${cpf}`] ?
+                    <div
+                        className='flex h-full items-center justify-center'
+                    >
+                        {
+                            data[`${cpf}`].type === 1 ?
+                                <div className="p-3">
+                                    <Image
+                                        src="/tc-fake.jpg"
+                                        width={500}
+                                        height={500}
+                                        alt="Picture of the author"
+                                    />
+                                </div> :
+                                <>
+                                    <div className="p-3">
+                                        <Image
+                                            src="/exames/col/1.jpeg"
+                                            width={500}
+                                            height={500}
+                                            alt="Picture of the author"
+                                        />
+                                    </div>
+                                    <div className="p-3">
+                                        <Image
+                                            src="/exames/col/2.jpeg"
+                                            width={500}
+                                            height={500}
+                                            alt="Picture of the author"
+                                        />
+                                    </div>
+                                </>
+                        }
+                    </div> : ""
+            }
 
-
-
-
-
-            </div>
         </main>
     )
 }
