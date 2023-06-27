@@ -2,10 +2,21 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { FaRegLightbulb, FaSearch, FaArrowsAlt, FaForward, FaExpandAlt, FaPlay, FaInfoCircle } from "react-icons/fa";
 import { useRouter } from 'next/router';
+import data from '@/base/data';
+import { useEffect, useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+    const router = useRouter();
+    const { cpf }: any = router.query;
+    const [user, setUser] = useState()
+
+    useEffect(() => {
+        setUser(data[`${cpf}`])
+        console.log(user)
+    }, [])
     return (
         <main
             className={`flex min-h-screen h-[100vh] flex-col ${inter.className} bg-slate-950`}
@@ -59,18 +70,40 @@ export default function Home() {
             <div
                 className='flex h-full items-center justify-center'
             >
-                <div className="p-3">
-                <Image
-                    src="/tc-fake.jpg"
-                    width={500}
-                    height={500}
-                    alt="Picture of the author"
-                />
-                </div>
-               
-                
-            
-                
+                {
+                    data[`${cpf}`].type === 1 ?
+                        <div className="p-3">
+                            <Image
+                                src="/tc-fake.jpg"
+                                width={500}
+                                height={500}
+                                alt="Picture of the author"
+                            />
+                        </div> :
+                        <>
+                            <div className="p-3">
+                                <Image
+                                    src="/exames/col/1.jpeg"
+                                    width={500}
+                                    height={500}
+                                    alt="Picture of the author"
+                                />
+                            </div>
+                            <div className="p-3">
+                                <Image
+                                    src="/exames/col/2.jpeg"
+                                    width={500}
+                                    height={500}
+                                    alt="Picture of the author"
+                                />
+                            </div>
+                        </>
+                }
+
+
+
+
+
             </div>
         </main>
     )
