@@ -31,7 +31,7 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
-    '31819397220':{
+    '31819397220': {
         nome: "RAIMUNDO NONATO FERREIRA DA SILVA",
         data_realizacao: "06/02/2023",
         data_nascimento: "31/07/1969",
@@ -39,7 +39,7 @@ const data = {
         exame: "Ressonância",
         type: 2
     },
-    '41051203287':{
+    '41051203287': {
         nome: "ALDA CELIA DE SOUSA",
         data_realizacao: "07/11/2022",
         data_nascimento: "21/05/1971",
@@ -47,14 +47,32 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
-    '35334495215':{
+    '35334495215': {
         nome: "ELONITA MAGALHAS SALUSTIANO",
         data_realizacao: "07/03/2023",
         data_nascimento: "16/07/1961",
-        cpf: "41051203287",
+        cpf: "35334495215",
         exame: "TC DO CRANIO",
         type: 1
-    }
+    },
+    '63501481268': {
+        nome: "Nilton Cesar Coelho Soares",
+        data_realizacao: "07/02/2023",
+        data_nascimento: "04/10/1978",
+        cpf: "63501481268",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '01661734286': {
+        nome: "Manoel Guimaraes Ramos da Silva Junior", 
+        data_nascimento: "01/04/1992",
+        data_realizacao: "07/02/2023",
+        cpf:'01661734286',
+        exame: "Ressonância",
+        type: 2
+    },
+
+
 }
 
 export default data
