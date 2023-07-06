@@ -75,7 +75,7 @@ const data = {
         nome: "ALBERTINA DO SOCORRO VARJÃO LEONCIO",
         data_realizacao: "08/03/2023",
         data_nascimento: "28/03/1969",
-        cpf: "03189336242",
+        cpf: "03189336245",
         exame: "TC DO CRANIO",
         type: 1
     },
