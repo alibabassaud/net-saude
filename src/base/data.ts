@@ -79,7 +79,14 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
-
+    '48059595253': {
+        nome: "ALBERTINA DO SOCORRO VARJÃO LEONCIO",
+        data_realizacao: "09/12/2022",
+        data_nascimento: "15/08/1977",
+        cpf: "48059595253",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 
 }
 
