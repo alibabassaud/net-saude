@@ -87,6 +87,22 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '35194863268': {
+        nome: "IZABEL CRISTINA DOS SANTOS SILVA",
+        data_realizacao: "25/05/2023",
+        data_nascimento: "25/11/1968",
+        cpf: "35194863268",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '21266727272': {
+        nome: "EDILSON DA SILVA CRUZ",
+        data_realizacao: "20/04/2023",
+        data_nascimento: "25/11/1968",
+        cpf: "21266727272",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 
 }
 
