@@ -103,6 +103,22 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '45537453215': {
+        nome: "Simoni do Socorro Sousa e Silva",
+        data_realizacao: "14/02/2023",
+        data_nascimento: "17/03/1974",
+        cpf: "45537453215",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '87098768200': {
+        nome: "Diana Goes de Souza",
+        data_realizacao: "30/01/2023",
+        data_nascimento: "12/01/1978",
+        cpf: "87098768200",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 
 }
 
