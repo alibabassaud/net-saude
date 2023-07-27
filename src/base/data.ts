@@ -119,6 +119,38 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '96671602204 ': {
+        nome: "Lizangela Sousa Caldas",
+        data_realizacao: "13/02/2023",
+        data_nascimento: "01/11/1985",
+        cpf: "96671602204 ",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '05143176204': {
+        nome: "Moises Ribeiro da Silva",
+        data_realizacao: "20/04/2023",
+        data_nascimento: "04/12/1995",
+        cpf: "05143176204",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '68743645291': {
+        nome: "Klebson Cordovil Ferreira",
+        data_realizacao: "07/03/2023",
+        data_nascimento: "01/03/1978",
+        cpf: "68743645291",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '65774922200 ': {
+        nome: "Antonio Raimundo Souza da Silva",
+        data_realizacao: "24/01/2023",
+        data_nascimento: "23/05/1980",
+        cpf: "65774922200 ",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 
 }
 
