@@ -151,7 +151,22 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
-
+    '98499220282': {
+        nome: "Helenilson Carrera da Silva",
+        data_realizacao: "19/06/2023",
+        data_nascimento: "07/10/1987",
+        cpf: "98499220282",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '65535863220': {
+        nome: "Jandresson Evangelista Silva da Silva",
+        data_realizacao: "03/04/2023",
+        data_nascimento: "09/07/1978",
+        cpf: "65535863220",
+        exame: "TC DO CRANIO",
+        type: 1
+    }
 }
 
 export default data
