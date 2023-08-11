@@ -170,7 +170,7 @@ const data = {
     '90269357220': {
         nome: "Tarcisio da Silva Santos",
         data_realizacao: "18/04/2023",
-        data_nascimento: "19/04/2023",
+        data_nascimento: "14/04/1988",
         cpf: "90269357220",
         exame: "TC DO CRANIO",
         type: 1
