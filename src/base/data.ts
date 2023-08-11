@@ -166,7 +166,15 @@ const data = {
         cpf: "65535863220",
         exame: "TC DO CRANIO",
         type: 1
-    }
+    },
+    '90269357220': {
+        nome: "Tarcisio da Silva Santos",
+        data_realizacao: "18/04/2023",
+        data_nascimento: "19/04/2023",
+        cpf: "90269357220",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 
 export default data
