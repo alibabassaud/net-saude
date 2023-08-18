@@ -175,6 +175,14 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '47187425287': {
+        nome: "Ronaldo Alves de Azevedo",
+        data_realizacao: "20/06/2023",
+        data_nascimento: "28/04/1975",
+        cpf: "47187425287",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 
 export default data
