@@ -183,6 +183,14 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '38060710206': {
+        nome: "Benedito Ramos Moreira",
+        data_realizacao: "25/05/2023",
+        data_nascimento: "20/09/1968",
+        cpf: "38060710206",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 
 export default data
