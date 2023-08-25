@@ -199,6 +199,14 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '75875136200': {
+        nome: "Elinaldo Alipio Silva Pinheiro",
+        data_realizacao: "22/11/2022",
+        data_nascimento: "12/06/1985",
+        cpf: "75875136200",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 
 export default data
