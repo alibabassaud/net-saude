@@ -191,6 +191,14 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '73850276287': {
+        nome: "Luzia Elias Mesquita",
+        data_realizacao: "24/05/2023",
+        data_nascimento: "28/10/1971",
+        cpf: "73850276287",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 
 export default data
