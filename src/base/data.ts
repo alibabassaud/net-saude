@@ -207,6 +207,22 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '59917601287': {
+        nome: "Alecson Lopes Fernandes",
+        data_realizacao: "06/12/2022",
+        data_nascimento: "07/04/1977",
+        cpf: "59917601287",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '27050432253': {
+        nome: "Maria do Socorro Santos dos Passos",
+        data_realizacao: "13/06/2023",
+        data_nascimento: "10/02/1963",
+        cpf: "27050432253",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 
 export default data
