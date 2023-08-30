@@ -223,6 +223,14 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '73198943272': {
+        nome: "Flavio Henrique Gomes Borges",
+        data_realizacao: "06/01/2023",
+        data_nascimento: "01/06/1982",
+        cpf: "73198943272",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 
 export default data
