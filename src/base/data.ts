@@ -231,6 +231,22 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
+    '81678193291': {
+        nome: "Francisco Douglas Santos Tavares",
+        data_realizacao: "06/06/2023",
+        data_nascimento: "08/11/1982",
+        cpf: "81678193291",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
+    '22927611220': {
+        nome: "Haroldo de Moraes Teixeira",
+        data_realizacao: "23/05/2023",
+        data_nascimento: "12/07/1965",
+        cpf: "22927611220",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 
 export default data
