@@ -246,6 +246,13 @@ const data = {
         cpf: "22927611220",
         exame: "TC DO CRANIO",
         type: 1
+    },'42293570282': {
+        nome: "Eudes Sebastião Silva Rodrigues",
+        data_realizacao: "19/01/2023",
+        data_nascimento: "22/12/1970",
+        cpf: "42293570282 ",
+        exame: "TC DO CRANIO",
+        type: 1
     },
 }
 
