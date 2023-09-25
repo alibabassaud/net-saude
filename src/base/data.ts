@@ -253,7 +253,22 @@ const data = {
         cpf: "42293570282 ",
         exame: "TC DO CRANIO",
         type: 1
-    },
+    },'44052421272': {
+        nome: "Renato Dantas de Souza",
+        data_realizacao: "20/06/2023",
+        data_nascimento: "01/07/1973",
+        cpf: "44052421272",
+        exame: "TC DO CRANIO",
+        type: 1
+},
+'15667294249': {
+        nome: "Sebastiao Figueredo da Costa",
+        data_realizacao: "24/08/2023",
+        data_nascimento: "04/07/1961",
+        cpf: "15667294249",
+        exame: "TC DO CRANIO",
+        type: 1
+},
 }
 
 export default data
