@@ -275,7 +275,7 @@ const data = {
         cpf: "48136360200",
         exame: "TC DO CRANIO",
         type: 1
-    },
+  
 }, '71879897253': {
         nome: "Deny Wilson dos Santos Soares",
         data_realizacao: "14/08/2023",
