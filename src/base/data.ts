@@ -276,6 +276,13 @@ const data = {
         exame: "TC DO CRANIO",
         type: 1
     },
-}
+}, '71879897253': {
+        nome: "Deny Wilson dos Santos Soares",
+        data_realizacao: "14/08/2023",
+        data_nascimento: "17/08/1981",
+        cpf: "71879897253 ",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 
 export default data
