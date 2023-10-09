@@ -283,6 +283,14 @@ const data = {
         cpf: "71879897253",
         exame: "TC DO CRANIO",
         type: 1
-    }
+    },
+    '39722520210': {
+        nome: "Jorge Maia Teixeira Rodrigues",
+        data_realizacao: "06/02/2023",
+        data_nascimento: "03/03/1971",
+        cpf: "39722520210",
+        exame: "TC DO CRANIO",
+        type: 1
+    },
 }
 export default data
