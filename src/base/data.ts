@@ -64,10 +64,10 @@ const data = {
         type: 1
     },
     '01661734286': {
-        nome: "Manoel Guimaraes Ramos da Silva Junior", 
+        nome: "Manoel Guimaraes Ramos da Silva Junior",
         data_nascimento: "01/04/1992",
         data_realizacao: "07/02/2023",
-        cpf:'01661734286',
+        cpf: '01661734286',
         exame: "Ressonância",
         type: 2
     },
@@ -246,43 +246,43 @@ const data = {
         cpf: "22927611220",
         exame: "TC DO CRANIO",
         type: 1
-    },'42293570282': {
+    }, '42293570282': {
         nome: "Eudes Sebastião Silva Rodrigues",
         data_realizacao: "19/01/2023",
         data_nascimento: "22/12/1970",
         cpf: "42293570282 ",
         exame: "TC DO CRANIO",
         type: 1
-    },'44052421272': {
+    }, '44052421272': {
         nome: "Renato Dantas de Souza",
         data_realizacao: "20/06/2023",
         data_nascimento: "01/07/1973",
         cpf: "44052421272",
         exame: "TC DO CRANIO",
         type: 1
-},
-'15667294249': {
+    },
+    '15667294249': {
         nome: "Sebastiao Figueredo da Costa",
         data_realizacao: "24/08/2023",
         data_nascimento: "04/07/1961",
         cpf: "15667294249",
         exame: "TC DO CRANIO",
         type: 1
-},'48136360200': {
+    }, '48136360200': {
         nome: "Nadia Soraia Silva do Couto",
         data_realizacao: "14/08/2023",
         data_nascimento: "03/07/1973",
         cpf: "48136360200",
         exame: "TC DO CRANIO",
         type: 1
-  
-}, '71879897253': {
+
+    }, '71879897253': {
         nome: "Deny Wilson dos Santos Soares",
         data_realizacao: "14/08/2023",
         data_nascimento: "17/08/1981",
-        cpf: "71879897253 ",
+        cpf: "71879897253",
         exame: "TC DO CRANIO",
         type: 1
-    },
-
+    }
+}
 export default data
