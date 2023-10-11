@@ -291,6 +291,13 @@ const data = {
         cpf: "39722520210",
         exame: "TC DO CRANIO",
         type: 1
+    },'64472043220': {
+        nome: "Valdo Barros Moraes",
+        data_realizacao: "06/02/2023",
+        data_nascimento: "18/07/1960",
+        cpf: "64472043220",
+        exame: "TC DO CRANIO",
+        type: 1
     },
 }
 export default data
