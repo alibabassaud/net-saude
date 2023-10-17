@@ -298,6 +298,13 @@ const data = {
         cpf: "64472043220",
         exame: "TC DO CRANIO",
         type: 1
+    },'29983754215': {
+        nome: "Marivaldo Sousa de Lima",
+        data_realizacao: "15/08/2023",
+        data_nascimento: "12/11/1967",
+        cpf: "29983754215",
+        exame: "TC DO CRANIO",
+        type: 1
     },
 }
 export default data
