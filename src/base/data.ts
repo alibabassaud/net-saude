@@ -305,6 +305,13 @@ const data = {
         cpf: "29983754215",
         exame: "TC DO CRANIO",
         type: 1
+    },'71048626253': {
+        nome: "Francisco da Silva Caldas Filho",
+        data_realizacao: "09/08/2023",
+        data_nascimento: "13/06/1981",
+        cpf: "71048626253",
+        exame: "TC DO CRANIO",
+        type: 1
     },
 }
 export default data
