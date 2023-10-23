@@ -312,6 +312,13 @@ const data = {
         cpf: "71048626253",
         exame: "TC DO CRANIO",
         type: 1
+    },'77439724291': {
+        nome: "Alex Wandre Quaresma do Nascimento",
+        data_realizacao: "06/12/2022",
+        data_nascimento: "20/01/1974",
+        cpf: "77439724291",
+        exame: "TC DO CRANIO",
+        type: 1
     },
 }
 export default data
